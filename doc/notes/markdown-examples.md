@@ -1,4 +1,7 @@
-
+---
+title: Docs with VitePress
+editLink: true
+---
 # Markdown 扩展 示例
 
 本示例展示 VitePress 内置的 MarkDown 扩展使用方式；
@@ -635,7 +638,7 @@ export default config
 
 
 ## 高级配置
-VuePress 使用 [markdown-it](`https://github.com/markdown-it/markdown-it`) 做为MarkDown的渲染器，上面的许多扩展都是使用自定义插件实现的。我们可以使用`.vitepress/config.js` 中的markdown 选项进一步自定义 `markdown-it` 实例
+VuePress 使用 [markdown-it](https://github.com/markdown-it/markdown-it) 做为MarkDown的渲染器，上面的许多扩展都是使用自定义插件实现的。我们可以使用`.vitepress/config.js` 中的markdown 选项进一步自定义 `markdown-it` 实例
 
 ```js
 const anchor = require('markdown-it-anchor')
