@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'/walle/', // 网址路径
   srcDir:'notes', // 源目录
   title: "WALLE 成长😈",
   description: "个人笔记，学习总结",
@@ -30,5 +31,8 @@ export default defineConfig({
       copyright:'Copyright @ 2023-present WALLE'
     }
 
+  },
+  markdown: {
+    lineNumbers: false
   }
 })
