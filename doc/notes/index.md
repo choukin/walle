@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "WALLE 成长😈"
   text: "个人笔记，学习总结"
-  tagline: My great project tagline
+  tagline: 在笔直的道路上曲折前行
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /markdown-examples
+      link: guide/markdown-examples
     - theme: alt
       text: API Examples
-      link: /api-examples
+      link: guide/api-examples
 
 features:
   - title: Feature A
